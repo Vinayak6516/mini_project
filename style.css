@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Lucida Grande';
+    background-image: url(backgrounds/wave.svg),url(backgrounds/wave1.svg), url(backgrounds/blob-scatter.svg);
+    background-position: center bottom,center top, center top ;
+    background-repeat: no-repeat, no-repeat, repeat;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    position: center;
+    margin: 20px 0;
+}
+
+body{
+    margin-bottom: 800px;
+}
+
+nav ul {
+    top: 50%;
+    padding: 10px;
+    text-align: center fixed;
+    list-style: armenian;
+    margin: auto;
+    background-image: linear-gradient(45deg, black, #444040);
+    border-radius: 50px;
+}
+
+footer {
+    font-size: 24px;
+    padding: 50px;
+    position: fixed;
+    bottom: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    cursor: pointer;
+    font-size: 165%;
+    color: white;
+}
+
+li:hover {
+    color: black;
+}
+
+#head {
+    font-size: 60px;
+    padding: 50px;
+    padding-left: 40%;
+    top: 0;
+    color: rgb(0, 0, 0);
+    /* background: url();
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-repeat: no-repeat;
+    border-radius: 20px; */
+}
+
+#h-t-img {
+    width: 450px;
+    height: 300px;
+    margin: 20px;
+}
+
+#float-rt {
+    float: right;
+}
+
+#mofA {
+    font-size: 180%
+}
+
+#img1TOI{
+    width: 55%;
+    margin-left: 8%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#DAimg {
+    width: 55%;
+    margin-left: 10%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
