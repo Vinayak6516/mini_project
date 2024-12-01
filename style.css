@@ -23,17 +23,17 @@ body{
 nav ul {
     top: 50%;
     padding: 10px;
-    text-align: center fixed;
+    text-align: center absolute;
     list-style: armenian;
     margin: auto;
-    background-image: linear-gradient(45deg, black, #444040);
+    background-image: linear-gradient(45deg, rgb(6, 1, 42), #03356b);
     border-radius: 50px;
 }
 
 footer {
     font-size: 24px;
     padding: 50px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
 }
 
@@ -55,13 +55,26 @@ li:hover {
     padding: 50px;
     padding-left: 40%;
     top: 0;
-    color: rgb(0, 0, 0);
+    color: rgb(32, 28, 44);
     /* background: url();
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.25);
     background-repeat: no-repeat;
     border-radius: 20px; */
+}
+
+.img1TOI{
+    width: 55%;
+    margin-left: 8%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#veda{
+    align-items: right;
+    position: absolute;
+    margin-left: 50%;
 }
 
 #h-t-img {
@@ -78,12 +91,7 @@ li:hover {
     font-size: 180%
 }
 
-#img1TOI{
-    width: 55%;
-    margin-left: 8%;
-    border: 2px solid white;
-    border-radius: 20px;
-}
+
 
 #DAimg {
     width: 55%;
