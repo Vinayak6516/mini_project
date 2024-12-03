@@ -6,22 +6,19 @@
     background-repeat: no-repeat, no-repeat, repeat;
 } */
 
-html{
-    background: white;
-}
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .l-header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: var(--z-fixed);
-    background-color: white;
-    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
 /* ====CSS from Vinayak Portfolio==== */
@@ -93,10 +90,6 @@ a {
     box-sizing: border-box;
   }
   
-  html {
-    scroll-behavior: smooth;
-    background-color: white;
-  }
   #img{
     border-radius: 50%;
   }
@@ -340,9 +333,42 @@ a {
     display: block;
   }
 
-  .paragraph-a li{
-    font-size: 1.2rem;
+  .paragraphD {
+    font-size: 0.8rem;
+    font-weight: var(--font-semi);
+    padding-top: 8%;
+    /* border-radius: 0.5rem;
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); */
+  }
+  .paragraphD form {
+    font-size: 0.8rem;
+    font-weight: var(--font-semi);
+    padding: 2%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    /* border-radius: 0.5rem;
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); */
+  }
+
+  .paragraphD ul li{
+    list-style: disc;
+    font-size: 0.8rem;
     margin: 2px;
+    color: black;
+    display: block;
+  }
+
+  .paragraphD ol li{
+    font-size: 0.8rem;
+    margin: 2px;
+    color: black;
+    display: block;
+  }
+
+  .paragraph-a li{
+    font-size: 0.8rem;
     color: black;
     display: block;
   }
@@ -408,12 +434,24 @@ a {
     margin-bottom: var(--mb-4);
   }
   .contact__button {
-    display: block;
-    border: none;
-    outline: none;
-    font-size: var(--normal-font-size);
+    border: 1px white solid;
+    border-radius: 15px;
+    font-size: 1rem;
     cursor: pointer;
-    margin-left: auto;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    background-color: hsla(0, 100%, 50%,0.73); ;
+  }
+  .contact__button:hover {
+    border: 1px white solid;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    background-color: hsla(0, 100%, 50%, 0.519); ;
   }
   
   /* ===== FOOTER =====*/
@@ -483,7 +521,11 @@ a {
       padding-top: 2rem;
     }
     .contact__form {
-      width: 75%;
+      width: 35%;
+      padding-top: 2rem;
+    }
+    .adopt__form {
+      width: 35%;
       padding-top: 2rem;
     }
     .contact__container {
@@ -605,7 +647,7 @@ li:hover {
     font-size: 60px;
     padding-top: 8%;
     top: 0;
-    color: rgb(32, 28, 44);
+    color: black;
     /* background: url();
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
@@ -613,6 +655,7 @@ li:hover {
     background-repeat: no-repeat;
     border-radius: 20px; */
 }
+
 
 .img1TOI{
     width: 55%;
@@ -626,6 +669,10 @@ li:hover {
     position: absolute;
     margin-left: 25%;
 }
+/* 
+.sm{
+  background: rgb(239,240,255,0);
+} */
 
 @media screen and (min-width: 968px) {
     #veda{
@@ -640,6 +687,20 @@ li:hover {
         cursor: pointer;
         font-size: 115%;
         color: white;
+    }
+
+    .paragraphD ul li{
+      font-size: 0.8rem;
+      margin: 2px;
+      color: black;
+      display: block;
+    }
+  
+    .paragraphD ol li{
+      font-size: 0.8rem;
+      margin: 2px;
+      color: black;
+      display: block;
     }
 }
 
@@ -677,6 +738,23 @@ li:hover {
     font-size: 28px;
 }
 
+.document_itema{
+  display: block;
+}
+
+.document_item{
+  display: block;
+}
+
+#additional{
+  font-size: 1rem;
+}
+
+.adopt__form{
+  position: absolute;
+  left: 32%;
+  margin-bottom: 20px;
+}
 
 #DAimg {
     width: 28%;
