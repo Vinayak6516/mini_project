@@ -2,6 +2,7 @@
 <html lang="en" class="sr">
   <title>VEDA</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.jpg" type="image/icon type">
   <body>
     <header class="l-header">
       <nav class="nav bd-grid">
