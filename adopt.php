@@ -37,16 +37,16 @@
             <input class="contact__input" type="text"  name="phone" placeholder="Enter your City">
             <textarea class="contact__input" id="message" name="message" rows="4" placeholder="Write your message here" required></textarea>
             <ol>
-                <li class="document_itema">Identification and Personal Documents
+                <li class="additional">Identification and Personal Documents
                 <ul>
-                    <li class="document_item">Government-issued ID (e.g., passport, driving license, or national ID card).</li>
+                    <li>Government-issued ID (e.g., passport, driving license, or national ID card).</li>
                     <li>Birth certificates of prospective adoptive parents.</li>
                     <li>Marriage certificate (if married).</li>
                     <li>Divorce decree or spouse death certificate (if applicable).</li>
                 </ul>
             </li>
             <br>
-            <li>Proof of Financial Stability
+            <li class="additional">Proof of Financial Stability
                 <ul>
                     <li>Income proof (e.g., salary slips, tax returns, or income tax assessments for the last 2-3 years).</li>
                     <li>Bank statements (last 6 months or more).</li>
@@ -55,7 +55,7 @@
                 </ul>
             </li>
             <br>
-            <li>Medical Reports
+            <li class="additional">Medical Reports
                 <ul>
                     <li>Recent medical fitness certificate for both prospective parents issued by a certified doctor.</li>
                     <li>Mental health evaluation (if required).</li>
@@ -63,21 +63,21 @@
                 </ul>
             </li>
             <br>
-            <li>Residential Proof
+            <li class="additional">Residential Proof
                 <ul>
                     <li>Proof of residence (e.g., utility bills, rent agreement, or property tax receipts).</li>
                     <li>Certificate of residence issued by a local authority (optional in some regions).</li>
                 </ul>
             </li>
             <br>
-            <li>Character Certificates
+            <li class="additional">Character Certificates
                 <ul>
                     <li>Police clearance certificate or background verification.</li>
                     <li>Character references or recommendation letters from non-family members.</li>
                 </ul>
             </li>
             <br>
-            <li>Adoption-Specific Documentation
+            <li class="additional">Adoption-Specific Documentation
                 <ul>
                     <li>Adoption application form provided by the adoption agency or central authority.</li>
                     <li>Home study report conducted by an authorized social worker or agency.</li>
@@ -86,14 +86,14 @@
                 </ul>
             </li>
             <br>
-            <li>Photographs
+            <li class="additional">Photographs
                 <ul>
                     <li>Recent passport-size photographs of the adoptive parents.</li>
                     <li>Family photographs (optional but often requested during home study evaluations).</li>
                 </ul>
             </li>
             <br>
-            <li>Other Legal Documents
+            <li class="additional">Other Legal Documents
                 <ul>
                     <li>Affidavit of willingness to adopt.</li>
                     <li>No-objection certificate (NOC) from the relevant adoption authority (if applicable).</li>
@@ -101,7 +101,7 @@
                 </ul>
             </li>
             <br> 
-            <li id="additional">
+            <li class="additional">
                 Additional Notes:
                 <ul>
                     <li>International adoption may require additional documents like visa applications, Hague Convention compliance certificates, and translation of certain documents.</li>
