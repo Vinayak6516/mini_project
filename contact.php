@@ -6,12 +6,12 @@
     <header class="l-header">
       <nav class="nav bd-grid">
           <div>
-              <a href="#" class="nav__logo">VEDA</a>
+              <a href="index.html" class="nav__logo">VEDA</a>
           </div>
 
           <div class="nav__menu" id="nav-menu">
               <ul class="nav__list">
-                  <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                  <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
                   <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
                   <li class="nav__item"><a href="adopt.php" class="nav__link">Adopt</a></li>
                   <li class="nav__item"><a href="contact.html" class="nav__link active-link">Contact</a></li>
