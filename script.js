@@ -11,4 +11,5 @@ const sr = ScrollReveal({
 });
 sr.reveal('.head',{delay:400});
 sr.reveal('.nav',{delay:800});
-sr.reveal('.img1TOI',{delay:1000});
+sr.reveal('.paragraph', {delay:400});
+// sr.reveal('.img1TOI',{delay:1000});
