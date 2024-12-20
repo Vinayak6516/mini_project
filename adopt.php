@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="sm">
   <title>VEDA</title>
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="logo.jpg" type="image/icon type">
   <body id="about" class="sm">
@@ -26,10 +27,10 @@
       </nav>
   </header>
   <div class="paragraphD">
-    <center>
-    <h2>Fill the below form carefully and we will reach out to you!</h2>
-    <h3>Please make sure that you carry the documents mentioned at the end of the form.</h3>
-    </center>
+    <div class="center">
+        <h2>Fill the below form carefully and we will reach out to you!</h2>
+        <h3>Please make sure that you carry the documents mentioned at the end of the form.</h3>
+    </div>
         <form action="contact.php" method="post" class="adopt__form">
             <input class="contact__input" type="text"  name="name" placeholder="Enter your name" required>
             <input class="contact__input" type="email"  name="email" placeholder="Enter your email" required>
@@ -39,10 +40,28 @@
             <ol>
                 <li class="additional">Identification and Personal Documents
                 <ul>
-                    <li>Government-issued ID (e.g., passport, driving license, or national ID card).</li>
-                    <li>Birth certificates of prospective adoptive parents.</li>
-                    <li>Marriage certificate (if married).</li>
-                    <li>Divorce decree or spouse death certificate (if applicable).</li>
+                    <li>Government-issued ID (e.g., passport, driving license, or national ID card).
+                        <br>
+                        <input class="id_input" type="file" name="gov_id" required accept=".pdf, image/*" >
+                    </li>
+                    <br>
+                    <br>
+                    <li>Birth certificates of prospective adoptive parents.
+                        <br>
+                        <input class="id_input" type="file" name="cert" required>
+                    </li>
+                    <br>
+                    <br>
+                    <li>Marriage certificate (if married).
+                        <br>
+                        <input class="id_input" type="file" name="m_cert">
+                    </li>
+                    <br>
+                    <br>
+                    <li>Divorce decree or spouse death certificate (if applicable).
+                        <br>
+                        <input class="id_input" type="file" name="decree" required>
+                    </li>
                 </ul>
             </li>
             <br>
