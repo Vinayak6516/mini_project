@@ -638,15 +638,6 @@ input[type="file"]::file-selector-button:active {
       position: absolute;
       margin-left: 20%;
   }
-
-  nav ul li {
-      display: inline-block;
-      margin-left: 2%;
-      margin-right: 2%;
-      cursor: pointer;
-      font-size: 110%;
-      color: white;
-  }
 }
 
 /* ====ID==== */
