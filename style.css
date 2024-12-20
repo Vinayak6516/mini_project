@@ -632,14 +632,6 @@ input[type="file"]::file-selector-button:active {
   }
 }
 
-@media screen and (max-width: 300px) {
-  #veda{
-      align-items: right;
-      position: absolute;
-      margin-left: 20%;
-  }
-}
-
 /* ====ID==== */
 #h-t-img {
   width: 450px;
