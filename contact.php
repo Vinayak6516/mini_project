@@ -11,9 +11,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $city = $conn->real_escape_string($_POST['city']);
     $message = $conn->real_escape_string($_POST['message']);
 
-    $sql = "INSERT INTO contact (name, email, phone, city, message VALUES ('$name', '$email', '$phone', '$city', '$message')";
-    if ($conn->query($sql) === TRUE) 
+    $sql = "INSERT INTO contact (name, email, phone, city, messag) VALUES ('$name', '$email', '$phone', '$city', '$message')";
+    if ($conn->query($sql) === TRUE) {
     echo "<script>alert('Your form has been submitted successfully!');</script>";
+    } else {
+      echo "Error: " . $sql . "<br>" . $conn->error;
+    }
     // Close the database connection
     $conn->close();
 }
